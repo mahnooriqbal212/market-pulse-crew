@@ -2,3 +2,4 @@ crewai[litellm]
 crewai-tools 
 streamlit 
 python-dotenv
+crewai[google-genai]

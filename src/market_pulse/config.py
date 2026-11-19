@@ -64,7 +64,7 @@ class SearchSettings:
 
 @dataclass(frozen=True)
 class AppConfig:
-    """All settings for the app, in one place."""
+    """All settings for the app, in one place: A safe way to see your settings without showing your API keys"""
 
     llms: dict[str, LLMSettings]
     search: SearchSettings
